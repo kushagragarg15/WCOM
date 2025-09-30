@@ -447,6 +447,7 @@ export default function WaterFillingAnimation() {
       <div className="animation-content">
         <div className="charts-container">
           <div className="chart-item">
+            <h4>Water-filling Algorithm Visualization</h4>
             <canvas 
               ref={waterFillingRef} 
               width={600} 
@@ -455,6 +456,7 @@ export default function WaterFillingAnimation() {
             />
           </div>
           <div className="chart-item">
+            <h4>Channel Capacity Analysis</h4>
             <canvas 
               ref={capacityRef} 
               width={400} 

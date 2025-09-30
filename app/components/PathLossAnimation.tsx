@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
-import { Play, Pause, RotateCcw, Settings } from 'lucide-react'
+import { Play, Pause, RotateCcw } from 'lucide-react'
 
 interface PathLossParams {
   frequency: number // MHz
@@ -435,6 +435,7 @@ export default function PathLossAnimation() {
       <div className="animation-content">
         <div className="charts-container">
           <div className="chart-item">
+            <h4>Path Loss vs Distance</h4>
             <canvas 
               ref={canvasRef} 
               width={500} 
@@ -443,6 +444,7 @@ export default function PathLossAnimation() {
             />
           </div>
           <div className="chart-item">
+            <h4>Shadowing Distribution</h4>
             <canvas 
               ref={shadowingRef} 
               width={400} 

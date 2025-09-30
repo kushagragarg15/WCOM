@@ -461,6 +461,7 @@ export default function HataTwoRayAnimation() {
       <div className="animation-content">
         <div className="charts-container">
           <div className="chart-item">
+            <h4>Received Power vs Distance</h4>
             <canvas 
               ref={canvasRef} 
               width={500} 
@@ -469,6 +470,7 @@ export default function HataTwoRayAnimation() {
             />
           </div>
           <div className="chart-item">
+            <h4>Model Comparison Analysis</h4>
             <canvas 
               ref={comparisonRef} 
               width={400} 

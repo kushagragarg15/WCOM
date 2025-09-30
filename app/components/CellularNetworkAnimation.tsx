@@ -489,6 +489,7 @@ export default function CellularNetworkAnimation() {
       <div className="animation-content">
         <div className="charts-container">
           <div className="chart-item">
+            <h4>Cellular Network Layout</h4>
             <canvas 
               ref={cellularRef} 
               width={400} 
@@ -497,6 +498,7 @@ export default function CellularNetworkAnimation() {
             />
           </div>
           <div className="chart-item">
+            <h4>Data Rate Analysis</h4>
             <canvas 
               ref={rateRef} 
               width={500} 
@@ -505,6 +507,7 @@ export default function CellularNetworkAnimation() {
             />
           </div>
           <div className="chart-item">
+            <h4>Velocity Impact</h4>
             <canvas 
               ref={velocityRef} 
               width={400} 

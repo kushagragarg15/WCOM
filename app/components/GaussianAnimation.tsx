@@ -361,6 +361,7 @@ export default function GaussianAnimation() {
       <div className="animation-content">
         <div className="charts-container">
           <div className="chart-item">
+            <h4>Gaussian Distribution</h4>
             <canvas 
               ref={canvasRef} 
               width={400} 
@@ -369,6 +370,7 @@ export default function GaussianAnimation() {
             />
           </div>
           <div className="chart-item">
+            <h4>Random Sample Generation</h4>
             <canvas 
               ref={timeSeriesRef} 
               width={400} 

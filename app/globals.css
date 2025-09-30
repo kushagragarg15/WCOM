@@ -1583,13 +1583,29 @@ sian Animation Component Styles */
 
 .charts-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
 }
 
 .chart-item {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 1rem;
+  min-height: 400px;
+}
+
+.chart-item h4 {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 1rem;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .chart-canvas {
@@ -1749,18 +1765,29 @@ Additional Animation Component Styles */
 
 .chart-item.full-width {
   grid-column: 1 / -1;
+  min-height: 300px;
+}
+
+.chart-item.full-width canvas {
+  max-width: 800px;
+  width: 100%;
 }
 
 /* Enhanced responsive adjustments for animations */
 @media (max-width: 1024px) {
   .charts-container {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
   
   .chart-canvas {
     width: 100%;
-    max-width: 100%;
+    max-width: 500px;
     height: auto;
+  }
+  
+  .chart-item {
+    min-height: 350px;
   }
 }
 
@@ -1787,9 +1814,25 @@ Additional Animation Component Styles */
     min-width: 120px;
   }
   
+  .charts-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .chart-item {
+    min-height: 300px;
+    padding: 0.75rem;
+  }
+  
   .chart-item.full-width canvas {
     width: 100%;
     max-width: 100%;
+  }
+  
+  .chart-canvas {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
   }
   
   .stats-grid {

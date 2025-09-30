@@ -512,6 +512,7 @@ export default function RicianJakesAnimation() {
       <div className="animation-content">
         <div className="charts-container">
           <div className="chart-item">
+            <h4>Rician Distribution</h4>
             <canvas 
               ref={ricianRef} 
               width={400} 
@@ -520,6 +521,7 @@ export default function RicianJakesAnimation() {
             />
           </div>
           <div className="chart-item">
+            <h4>Doppler Spectrum</h4>
             <canvas 
               ref={dopplerRef} 
               width={400} 
@@ -528,6 +530,7 @@ export default function RicianJakesAnimation() {
             />
           </div>
           <div className="chart-item full-width">
+            <h4>Time Series Analysis</h4>
             <canvas 
               ref={timeSeriesRef} 
               width={800} 
