@@ -137,6 +137,22 @@ export default function AssignmentsPage() {
                 </div>
               </div>
             </Link>
+
+            <Link href="/assignment-7" className="assignment-card">
+              <div className="assignment-number">07</div>
+              <div className="assignment-info">
+                <h3>MIMO Systems and Channel Capacity Analysis</h3>
+                <p>
+                  Explore Multiple Input Multiple Output systems, analyze channel capacity 
+                  for different antenna configurations, and study BER performance in fading channels.
+                </p>
+                <div className="assignment-topics">
+                  <span className="topic">MIMO Systems</span>
+                  <span className="topic">Channel Capacity</span>
+                  <span className="topic">Spatial Diversity</span>
+                </div>
+              </div>
+            </Link>
           </div>
 
           <div className="course-info">

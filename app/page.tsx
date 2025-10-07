@@ -214,6 +214,10 @@ export default function HomePage() {
                 <span className="tile-title">Assignment 6</span>
                 <span className="tile-subtitle">Water-filling Power Allocation Algorithm</span>
               </Link>
+              <Link className="tile" href="/assignment-7" aria-label="Open Assignment 7">
+                <span className="tile-title">Assignment 7</span>
+                <span className="tile-subtitle">MIMO Systems and Channel Capacity Analysis</span>
+              </Link>
             </div>
           </div>
         </section>
