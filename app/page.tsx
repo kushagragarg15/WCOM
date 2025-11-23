@@ -218,6 +218,10 @@ export default function HomePage() {
                 <span className="tile-title">Assignment 7</span>
                 <span className="tile-subtitle">MIMO Systems and Channel Capacity Analysis</span>
               </Link>
+              <Link className="tile" href="/assignment-8" aria-label="Open Assignment 8">
+                <span className="tile-title">Assignment 8</span>
+                <span className="tile-subtitle">Diversity Combining Techniques</span>
+              </Link>
             </div>
           </div>
         </section>

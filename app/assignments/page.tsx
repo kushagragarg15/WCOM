@@ -153,6 +153,22 @@ export default function AssignmentsPage() {
                 </div>
               </div>
             </Link>
+
+            <Link href="/assignment-8" className="assignment-card">
+              <div className="assignment-number">08</div>
+              <div className="assignment-info">
+                <h3>Diversity Combining Techniques</h3>
+                <p>
+                  Compare Selection Combining, Equal Gain Combining, and Maximum Ratio Combining 
+                  techniques. Analyze BER performance and diversity gains in Rayleigh fading channels.
+                </p>
+                <div className="assignment-topics">
+                  <span className="topic">Diversity Combining</span>
+                  <span className="topic">BER Analysis</span>
+                  <span className="topic">Fading Mitigation</span>
+                </div>
+              </div>
+            </Link>
           </div>
 
           <div className="course-info">
