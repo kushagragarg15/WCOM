@@ -108,6 +108,11 @@ export default function Assignment2Page() {
                 <span>Assignment Guide</span>
                 <small>Complete Documentation</small>
               </a>
+              <a href="/presentations/Assignment 2 Path Loss and Shadowing .pptx" className="file-card" download>
+                <FileText size={24} />
+                <span>Presentation Slides</span>
+                <small>Data Flow & Pseudocode</small>
+              </a>
             </div>
           </div>
         </div>

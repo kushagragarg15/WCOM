@@ -118,6 +118,11 @@ export default function Assignment8Page() {
                 <span>Assignment Guide</span>
                 <small>Complete Documentation</small>
               </a>
+              <a href="/presentations/Assignment 8 - Diversity Techniques.pptx" className="file-card" download>
+                <FileText size={24} />
+                <span>Presentation Slides</span>
+                <small>Data Flow & Pseudocode</small>
+              </a>
             </div>
           </div>
         </div>

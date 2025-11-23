@@ -170,6 +170,82 @@ export default function ContactPage() {
                 </div>
                 </div>
               </div>
+
+              {/* Developer 3 */}
+              <div className="developer-card">
+                <div className="developer-profile">
+                  <div className="developer-image">
+                    <Image 
+                      src="/placeholder-user.jpg"
+                      alt="Leher Joshi"
+                      width={120}
+                      height={120}
+                      className="student-photo"
+                    />
+                  </div>
+                  <div className="developer-info">
+                    <h3 className="developer-name">Leher Joshi</h3>
+                    <p className="developer-id">23UCC566</p>
+                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="developer-institution">LNMIIT</p>
+                    
+                    <div className="developer-role">
+                      <h4>Contributions:</h4>
+                      <ul>
+                        <li>Presentation slides design and content</li>
+                        <li>Data flow diagrams and pseudocode</li>
+                        <li>Technical documentation</li>
+                        <li>Algorithm visualization</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="contact-links">
+                      <a href="mailto:23ucc566@lnmiit.ac.in" className="contact-link email">
+                        <Mail size={18} />
+                        23ucc566@lnmiit.ac.in
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Developer 4 */}
+              <div className="developer-card">
+                <div className="developer-profile">
+                  <div className="developer-image">
+                    <Image 
+                      src="/placeholder-user.jpg"
+                      alt="Harshita Devnani"
+                      width={120}
+                      height={120}
+                      className="student-photo"
+                    />
+                  </div>
+                  <div className="developer-info">
+                    <h3 className="developer-name">Harshita Devnani</h3>
+                    <p className="developer-id">23UCC546</p>
+                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="developer-institution">LNMIIT</p>
+                    
+                    <div className="developer-role">
+                      <h4>Contributions:</h4>
+                      <ul>
+                        <li>Presentation slides design and content</li>
+                        <li>Data flow diagrams and pseudocode</li>
+                        <li>Technical documentation</li>
+                        <li>Algorithm visualization</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="contact-links">
+                      <a href="mailto:23ucc546@lnmiit.ac.in" className="contact-link email">
+                        <Mail size={18} />
+                        23ucc546@lnmiit.ac.in
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 

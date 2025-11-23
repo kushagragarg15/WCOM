@@ -173,6 +173,11 @@ export default function Assignment4Page() {
                 <span>Assignment Guide</span>
                 <small>Quick Reference</small>
               </a>
+              <a href="/presentations/Assignment 4 - Rician Fading & Jakes Spectrum.pptx" className="file-card" download>
+                <FileText size={24} />
+                <span>Presentation Slides</span>
+                <small>Data Flow & Pseudocode</small>
+              </a>
             </div>
           </div>
         </div>

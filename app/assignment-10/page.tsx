@@ -115,6 +115,11 @@ export default function Assignment10Page() {
                 <span>Assignment Guide</span>
                 <small>Complete Documentation</small>
               </a>
+              <a href="/presentations/Assignment 10 - Alamouti STBC.pptx" className="file-card" download>
+                <FileText size={24} />
+                <span>Presentation Slides</span>
+                <small>Data Flow & Pseudocode</small>
+              </a>
             </div>
           </div>
         </div>

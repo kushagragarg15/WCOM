@@ -132,6 +132,11 @@ export default function Assignment3Page() {
                 <span>hata_tworay_models.m</span>
                 <small>MATLAB Implementation</small>
               </a>
+              <a href="/presentations/Assignment 3 - Wireless Propagation Models.pptx" className="file-card" download>
+                <FileText size={24} />
+                <span>Presentation Slides</span>
+                <small>Data Flow & Pseudocode</small>
+              </a>
             </div>
           </div>
         </div>

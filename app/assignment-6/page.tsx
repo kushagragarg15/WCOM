@@ -176,6 +176,11 @@ export default function Assignment6Page() {
                 <span>Assignment Documentation</span>
                 <small>Complete Theory & Analysis</small>
               </a>
+              <a href="/presentations/Assignment 6 - Water-filling Algorithm.pptx" className="file-card" download>
+                <FileText size={24} />
+                <span>Presentation Slides</span>
+                <small>Data Flow & Pseudocode</small>
+              </a>
             </div>
           </div>
         </div>

@@ -160,6 +160,11 @@ export default function Assignment5Page() {
                 <span>Assignment Documentation</span>
                 <small>Complete Theory & Analysis</small>
               </a>
+              <a href="/presentations/Assignment 5 Wireless System Capacity Simulation.pptx" className="file-card" download>
+                <FileText size={24} />
+                <span>Presentation Slides</span>
+                <small>Data Flow & Pseudocode</small>
+              </a>
             </div>
           </div>
         </div>
