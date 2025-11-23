@@ -43,9 +43,17 @@ export default function ModulationMIMOAnimation() {
   const [modulationData, setModulationData] = useState<ModulationBERData[]>([])
   const [mimoData, setMIMOData] = useState<MIMOBERData[]>([])
 
-  // Q-function approximation
+  // Q-function approximation (complementary error function)
   const qfunc = (x: number): number => {
-    return 0.5 * Math.erfc(x / Math.sqrt(2))
+    // Approximation of Q(x) = 0.5 * erfc(x/sqrt(2))
+    // Using polynomial approximation for erfc
+    if (x < 0) return 1 - qfunc(-x)
+    if (x === 0) return 0.5
+    
+    const t = 1 / (1 + 0.3275911 * x)
+    const erfcApprox = ((((1.061405429 * t - 1.453152027) * t + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x)
+    
+    return 0.5 * erfcApprox
   }
 
   // Calculate theoretical BER for modulation schemes
