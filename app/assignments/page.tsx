@@ -185,6 +185,22 @@ export default function AssignmentsPage() {
                 </div>
               </div>
             </Link>
+
+            <Link href="/assignment-10" className="assignment-card">
+              <div className="assignment-number">10</div>
+              <div className="assignment-info">
+                <h3>Alamouti Space-Time Block Coding</h3>
+                <p>
+                  Implement Alamouti STBC using BPSK and QPSK modulation. Compare normal MISO systems 
+                  with Alamouti coding to understand transmit diversity and space-time coding benefits.
+                </p>
+                <div className="assignment-topics">
+                  <span className="topic">Space-Time Coding</span>
+                  <span className="topic">Transmit Diversity</span>
+                  <span className="topic">Orthogonal Design</span>
+                </div>
+              </div>
+            </Link>
           </div>
 
           <div className="course-info">

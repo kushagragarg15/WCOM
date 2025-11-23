@@ -226,6 +226,10 @@ export default function HomePage() {
                 <span className="tile-title">Assignment 9</span>
                 <span className="tile-subtitle">Modulation Schemes and MIMO Techniques</span>
               </Link>
+              <Link className="tile" href="/assignment-10" aria-label="Open Assignment 10">
+                <span className="tile-title">Assignment 10</span>
+                <span className="tile-subtitle">Alamouti Space-Time Block Coding</span>
+              </Link>
             </div>
           </div>
         </section>
