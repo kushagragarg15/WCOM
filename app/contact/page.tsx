@@ -107,109 +107,7 @@ export default function ContactPage() {
             <h2 className="section-heading">Student Developers</h2>
             <div className="developers-grid">
               
-              {/* Developer 1 */}
-              <div className="developer-card">
-                <div className="developer-profile">
-                  <div className="developer-image">
-                    <Image 
-                      src="https://media.licdn.com/dms/image/v2/D5603AQH62VHdeFfX7g/profile-displayphoto-scale_400_400/B56ZiM.tE5HQAg-/0/1754711906941?e=1762387200&v=beta&t=CXnkIft0UaRgiJqVz39_LBlFdT-20ru9iN2TKjForKU"
-                      alt="Kushagra Garg"
-                      width={120}
-                      height={120}
-                      className="student-photo"
-                    />
-                  </div>
-                  <div className="developer-info">
-                    <h3 className="developer-name">Kushagra Garg</h3>
-                  <p className="developer-id">23UCC564</p>
-                  <p className="developer-program">B.Tech Computer & Communication Engineering</p>
-                  <p className="developer-institution">LNMIIT</p>
-                  
-                  <div className="contact-links">
-                    <a href="mailto:23ucc564@lnmiit.ac.in" className="contact-link email">
-                      <Mail size={18} />
-                      23ucc564@lnmiit.ac.in
-                    </a>
-                    <a href="https://www.linkedin.com/in/kushagra-garg-6b63262aa/" target="_blank" rel="noopener noreferrer" className="contact-link linkedin">
-                      <Linkedin size={18} />
-                      LinkedIn Profile
-                    </a>
-                  </div>
-                </div>
-                </div>
-              </div>
-
-              {/* Developer 2 */}
-              <div className="developer-card">
-                <div className="developer-profile">
-                  <div className="developer-image">
-                    <Image 
-                      src="https://media.licdn.com/dms/image/v2/D5603AQG_v390lOy_Sg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729360488108?e=1762387200&v=beta&t=9H6g5IxQvYwOQ9BdbXsUeciwPld5AkY9KGv5Kh8D4KE"
-                      alt="Kushagra Rajput"
-                      width={120}
-                      height={120}
-                      className="student-photo"
-                    />
-                  </div>
-                  <div className="developer-info">
-                    <h3 className="developer-name">Kushagra Rajput</h3>
-                  <p className="developer-id">23UCC565</p>
-                  <p className="developer-program">B.Tech Computer & Communication Engineering</p>
-                  <p className="developer-institution">LNMIIT</p>
-                  
-                  <div className="contact-links">
-                    <a href="mailto:23ucc565@lnmiit.ac.in" className="contact-link email">
-                      <Mail size={18} />
-                      23ucc565@lnmiit.ac.in
-                    </a>
-                    <a href="https://www.linkedin.com/in/kushagra-pratap-singh-510125334/" target="_blank" rel="noopener noreferrer" className="contact-link linkedin">
-                      <Linkedin size={18} />
-                      LinkedIn Profile
-                    </a>
-                  </div>
-                </div>
-                </div>
-              </div>
-
-              {/* Developer 3 */}
-              <div className="developer-card">
-                <div className="developer-profile">
-                  <div className="developer-image">
-                    <Image 
-                      src="/placeholder-user.jpg"
-                      alt="Leher Joshi"
-                      width={120}
-                      height={120}
-                      className="student-photo"
-                    />
-                  </div>
-                  <div className="developer-info">
-                    <h3 className="developer-name">Leher Joshi</h3>
-                    <p className="developer-id">23UCC566</p>
-                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
-                    <p className="developer-institution">LNMIIT</p>
-                    
-                    <div className="developer-role">
-                      <h4>Contributions:</h4>
-                      <ul>
-                        <li>Presentation slides design and content</li>
-                        <li>Data flow diagrams and pseudocode</li>
-                        <li>Technical documentation</li>
-                        <li>Algorithm visualization</li>
-                      </ul>
-                    </div>
-                    
-                    <div className="contact-links">
-                      <a href="mailto:23ucc566@lnmiit.ac.in" className="contact-link email">
-                        <Mail size={18} />
-                        23ucc566@lnmiit.ac.in
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Developer 4 */}
+              {/* Developer 1 - 23UCC546 */}
               <div className="developer-card">
                 <div className="developer-profile">
                   <div className="developer-image">
@@ -227,20 +125,102 @@ export default function ContactPage() {
                     <p className="developer-program">B.Tech Computer & Communication Engineering</p>
                     <p className="developer-institution">LNMIIT</p>
                     
-                    <div className="developer-role">
-                      <h4>Contributions:</h4>
-                      <ul>
-                        <li>Presentation slides design and content</li>
-                        <li>Data flow diagrams and pseudocode</li>
-                        <li>Technical documentation</li>
-                        <li>Algorithm visualization</li>
-                      </ul>
-                    </div>
-                    
                     <div className="contact-links">
                       <a href="mailto:23ucc546@lnmiit.ac.in" className="contact-link email">
                         <Mail size={18} />
                         23ucc546@lnmiit.ac.in
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Developer 2 - 23UCC564 */}
+              <div className="developer-card">
+                <div className="developer-profile">
+                  <div className="developer-image">
+                    <Image 
+                      src="https://media.licdn.com/dms/image/v2/D5603AQH62VHdeFfX7g/profile-displayphoto-scale_400_400/B56ZiM.tE5HQAg-/0/1754711906941?e=1762387200&v=beta&t=CXnkIft0UaRgiJqVz39_LBlFdT-20ru9iN2TKjForKU"
+                      alt="Kushagra Garg"
+                      width={120}
+                      height={120}
+                      className="student-photo"
+                    />
+                  </div>
+                  <div className="developer-info">
+                    <h3 className="developer-name">Kushagra Garg</h3>
+                    <p className="developer-id">23UCC564</p>
+                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="developer-institution">LNMIIT</p>
+                    
+                    <div className="contact-links">
+                      <a href="mailto:23ucc564@lnmiit.ac.in" className="contact-link email">
+                        <Mail size={18} />
+                        23ucc564@lnmiit.ac.in
+                      </a>
+                      <a href="https://www.linkedin.com/in/kushagra-garg-6b63262aa/" target="_blank" rel="noopener noreferrer" className="contact-link linkedin">
+                        <Linkedin size={18} />
+                        LinkedIn Profile
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Developer 3 - 23UCC565 */}
+              <div className="developer-card">
+                <div className="developer-profile">
+                  <div className="developer-image">
+                    <Image 
+                      src="https://media.licdn.com/dms/image/v2/D5603AQG_v390lOy_Sg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729360488108?e=1762387200&v=beta&t=9H6g5IxQvYwOQ9BdbXsUeciwPld5AkY9KGv5Kh8D4KE"
+                      alt="Kushagra Rajput"
+                      width={120}
+                      height={120}
+                      className="student-photo"
+                    />
+                  </div>
+                  <div className="developer-info">
+                    <h3 className="developer-name">Kushagra Rajput</h3>
+                    <p className="developer-id">23UCC565</p>
+                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="developer-institution">LNMIIT</p>
+                    
+                    <div className="contact-links">
+                      <a href="mailto:23ucc565@lnmiit.ac.in" className="contact-link email">
+                        <Mail size={18} />
+                        23ucc565@lnmiit.ac.in
+                      </a>
+                      <a href="https://www.linkedin.com/in/kushagra-pratap-singh-510125334/" target="_blank" rel="noopener noreferrer" className="contact-link linkedin">
+                        <Linkedin size={18} />
+                        LinkedIn Profile
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Developer 4 - 23UCC566 */}
+              <div className="developer-card">
+                <div className="developer-profile">
+                  <div className="developer-image">
+                    <Image 
+                      src="/placeholder-user.jpg"
+                      alt="Leher Joshi"
+                      width={120}
+                      height={120}
+                      className="student-photo"
+                    />
+                  </div>
+                  <div className="developer-info">
+                    <h3 className="developer-name">Leher Joshi</h3>
+                    <p className="developer-id">23UCC566</p>
+                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="developer-institution">LNMIIT</p>
+                    
+                    <div className="contact-links">
+                      <a href="mailto:23ucc566@lnmiit.ac.in" className="contact-link email">
+                        <Mail size={18} />
+                        23ucc566@lnmiit.ac.in
                       </a>
                     </div>
                   </div>
