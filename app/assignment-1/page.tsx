@@ -34,7 +34,7 @@ export default function Assignment1Page() {
           <section className="assignment-section">
             <h2>Objective</h2>
             <p>
-              Create MATLAB code to generate and plot a Gaussian random variable distribution, 
+              Create MATLAB code to generate and plot a Gaussian random variable distribution,
               demonstrating understanding of probability distributions and MATLAB programming.
             </p>
           </section>
@@ -77,8 +77,8 @@ export default function Assignment1Page() {
           <section className="assignment-section">
             <h2>Interactive Animation</h2>
             <p>
-              Experience the Gaussian distribution learning process in real-time. Watch how sample 
-              statistics converge to theoretical values as the sample size increases, demonstrating 
+              Experience the Gaussian distribution learning process in real-time. Watch how sample
+              statistics converge to theoretical values as the sample size increases, demonstrating
               the Law of Large Numbers and Central Limit Theorem.
             </p>
             <GaussianAnimation />

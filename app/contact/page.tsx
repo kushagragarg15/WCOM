@@ -130,6 +130,10 @@ export default function ContactPage() {
                         <Mail size={18} />
                         23ucc546@lnmiit.ac.in
                       </a>
+                      <a href="https://www.linkedin.com/in/harshita-devnani-50b873301/" target="_blank" rel="noopener noreferrer" className="contact-link linkedin">
+                        <Linkedin size={18} />
+                        LinkedIn Profile
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -205,14 +209,14 @@ export default function ContactPage() {
                   <div className="developer-image">
                     <Image 
                       src="/placeholder-user.jpg"
-                      alt="Leher Joshi"
+                      alt="Lahar Joshi"
                       width={120}
                       height={120}
                       className="student-photo"
                     />
                   </div>
                   <div className="developer-info">
-                    <h3 className="developer-name">Leher Joshi</h3>
+                    <h3 className="developer-name">Lahar Joshi</h3>
                     <p className="developer-id">23UCC566</p>
                     <p className="developer-program">B.Tech Computer & Communication Engineering</p>
                     <p className="developer-institution">LNMIIT</p>
@@ -221,6 +225,10 @@ export default function ContactPage() {
                       <a href="mailto:23ucc566@lnmiit.ac.in" className="contact-link email">
                         <Mail size={18} />
                         23ucc566@lnmiit.ac.in
+                      </a>
+                      <a href="https://www.linkedin.com/in/lahar-joshi-120411302/" target="_blank" rel="noopener noreferrer" className="contact-link linkedin">
+                        <Linkedin size={18} />
+                        LinkedIn Profile
                       </a>
                     </div>
                   </div>
