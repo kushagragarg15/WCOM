@@ -1737,7 +1737,8 @@ Additional Animation Component Styles */
 .hata-tworay-animation,
 .rician-jakes-animation,
 .mimo-analysis-animation,
-.diversity-combining-animation {
+.diversity-combining-animation,
+.modulation-mimo-animation {
   background: rgba(30, 41, 59, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--radius);
@@ -1800,7 +1801,8 @@ Additional Animation Component Styles */
   .cellular-network-animation,
   .waterfilling-animation,
   .mimo-analysis-animation,
-  .diversity-combining-animation {
+  .diversity-combining-animation,
+  .modulation-mimo-animation {
     padding: 1rem;
   }
   

@@ -222,6 +222,10 @@ export default function HomePage() {
                 <span className="tile-title">Assignment 8</span>
                 <span className="tile-subtitle">Diversity Combining Techniques</span>
               </Link>
+              <Link className="tile" href="/assignment-9" aria-label="Open Assignment 9">
+                <span className="tile-title">Assignment 9</span>
+                <span className="tile-subtitle">Modulation Schemes and MIMO Techniques</span>
+              </Link>
             </div>
           </div>
         </section>

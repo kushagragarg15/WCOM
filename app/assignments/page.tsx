@@ -169,6 +169,22 @@ export default function AssignmentsPage() {
                 </div>
               </div>
             </Link>
+
+            <Link href="/assignment-9" className="assignment-card">
+              <div className="assignment-number">09</div>
+              <div className="assignment-info">
+                <h3>Modulation Schemes and MIMO Techniques</h3>
+                <p>
+                  Implement BPSK, QPSK, and QAM modulation schemes under SISO, SIMO, MISO, and MIMO 
+                  configurations. Compare spectral efficiency and error performance trade-offs.
+                </p>
+                <div className="assignment-topics">
+                  <span className="topic">Digital Modulation</span>
+                  <span className="topic">MIMO Systems</span>
+                  <span className="topic">Alamouti STBC</span>
+                </div>
+              </div>
+            </Link>
           </div>
 
           <div className="course-info">
