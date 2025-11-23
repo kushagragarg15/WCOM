@@ -92,11 +92,13 @@ export default function PresentationsPage() {
             <ArrowLeft size={20} />
             Back to Assignments
           </Link>
-          <h1>
-            <Presentation className="page-icon" />
-            Presentation Slides
-          </h1>
-          <p>Comprehensive presentation slides covering all wireless communication topics with detailed analysis and visual explanations.</p>
+          <div className="page-title-section">
+            <h1>
+              <Presentation className="page-icon" />
+              Presentation Slides
+            </h1>
+            <p className="page-subtitle">Comprehensive presentation slides covering all wireless communication topics with detailed analysis and visual explanations.</p>
+          </div>
         </div>
 
         <div className="presentations-grid">
