@@ -17,6 +17,7 @@ export default function ContactPage() {
           <nav className="nav-links" role="navigation">
             <Link href="/">Home</Link>
             <Link href="/assignments">Assignments</Link>
+            <Link href="/presentations">Presentations</Link>
             <Link href="/contact">Contact</Link>
             <Image 
               src="https://lnmiit.ac.in/wp-content/uploads/2023/07/LNMIIT-Logo-Transperant-Background.png" 

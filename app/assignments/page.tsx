@@ -13,6 +13,7 @@ export default function AssignmentsPage() {
           <nav className="nav-links" role="navigation">
             <Link href="/">Home</Link>
             <Link href="/assignments">Assignments</Link>
+            <Link href="/presentations">Presentations</Link>
             <Link href="/contact">Contact</Link>
           </nav>
         </div>

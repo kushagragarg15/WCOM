@@ -106,19 +106,19 @@ export default function PresentationsPage() {
                 <FileText className="presentation-icon" size={24} />
                 <div className="presentation-number">#{presentation.id}</div>
               </div>
-              
+
               <div className="presentation-content">
                 <h3>{presentation.title}</h3>
                 <p>{presentation.description}</p>
-                
+
                 <div className="presentation-topics">
                   {presentation.topics.map((topic, index) => (
                     <span key={index} className="topic">{topic}</span>
                   ))}
                 </div>
-                
+
                 <div className="presentation-actions">
-                  <a 
+                  <a
                     href={`/presentations/${presentation.filename}`}
                     download
                     className="btn btn-primary"
@@ -126,7 +126,7 @@ export default function PresentationsPage() {
                     <Download size={16} />
                     Download PowerPoint
                   </a>
-                  <Link 
+                  <Link
                     href={`/assignment-${presentation.id}`}
                     className="btn btn-ghost"
                   >
@@ -161,8 +161,8 @@ export default function PresentationsPage() {
         <div className="credits-section">
           <h2>Presentation Credits</h2>
           <p>
-            These comprehensive presentation slides were created by <strong>Leher Joshi (23UCC566)</strong> and <strong>Harshita Devnani (23UCC546)</strong> 
-            as part of the WCOM Lab project. The presentations include detailed data flow diagrams, pseudocode implementations, 
+            These comprehensive presentation slides were created by <strong>Leher Joshi (23UCC566)</strong> and <strong>Harshita Devnani (23UCC546)</strong>
+            as part of the WCOM Lab project. The presentations include detailed data flow diagrams, pseudocode implementations,
             theoretical analysis, and performance evaluations for each wireless communication topic covered in the course.
           </p>
         </div>
