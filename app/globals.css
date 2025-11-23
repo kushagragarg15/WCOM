@@ -2835,3 +2835,412 @@ llular Network Animation Styles */
     padding: 1.5rem;
   }
 }
+/
+* Presentations Page Styles */
+.page-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.page-header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  color: var(--text);
+  margin: 1rem 0;
+}
+
+.page-icon {
+  color: var(--primary);
+}
+
+.page-header p {
+  color: var(--muted-text);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.presentations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.presentation-card {
+  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+.presentation-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+.presentation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.presentation-icon {
+  color: var(--primary);
+}
+
+.presentation-number {
+  background: var(--primary);
+  color: var(--text);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.presentation-content h3 {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--text);
+  margin: 0 0 0.75rem;
+  line-height: 1.3;
+}
+
+.presentation-content p {
+  color: var(--muted-text);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.presentation-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.topic {
+  background: rgba(59, 130, 246, 0.15);
+  color: var(--primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.presentation-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.presentation-actions .btn {
+  flex: 1;
+  min-width: 140px;
+  justify-content: center;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+}
+
+.presentation-actions .btn svg {
+  margin-right: 0.5rem;
+}
+
+/* Feature Grid for Presentations */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.feature-item {
+  background: rgba(17, 24, 39, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.feature-item h3 {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text);
+  margin: 0 0 0.75rem;
+}
+
+.feature-item p {
+  color: var(--muted-text);
+  line-height: 1.5;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Credits Section */
+.credits-section {
+  background: rgba(17, 24, 39, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.credits-section h2 {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin: 0 0 1rem;
+}
+
+.credits-section p {
+  color: var(--muted-text);
+  line-height: 1.6;
+  margin: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.credits-section strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* Assignments Page Styles */
+.assignments-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.assignments-title {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  color: var(--text);
+  margin: 1rem 0;
+}
+
+.assignments-subtitle {
+  color: var(--muted-text);
+  font-size: 1.1rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.assignments-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.assignments-overview {
+  background: rgba(17, 24, 39, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.assignments-overview h2 {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin: 0 0 1rem;
+}
+
+.assignments-overview p {
+  color: var(--muted-text);
+  line-height: 1.6;
+  margin: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.assignments-grid-page {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.assignment-card {
+  display: flex;
+  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  gap: 1rem;
+}
+
+.assignment-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+.assignment-number {
+  background: var(--primary);
+  color: var(--text);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.assignment-info {
+  flex: 1;
+}
+
+.assignment-info h3 {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--text);
+  margin: 0 0 0.75rem;
+  line-height: 1.3;
+}
+
+.assignment-info p {
+  color: var(--muted-text);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.assignment-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.assignment-topics .topic {
+  background: rgba(34, 211, 238, 0.15);
+  color: var(--accent);
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid rgba(34, 211, 238, 0.3);
+}
+
+/* Course Info Section */
+.course-info {
+  margin-top: 3rem;
+}
+
+.course-info h2 {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+.objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.objective-item {
+  background: rgba(17, 24, 39, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.objective-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.objective-item h3 {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text);
+  margin: 0 0 0.75rem;
+}
+
+.objective-item p {
+  color: var(--muted-text);
+  line-height: 1.5;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design for Presentations and Assignments */
+@media (max-width: 768px) {
+  .presentations-grid,
+  .assignments-grid-page {
+    grid-template-columns: 1fr;
+  }
+  
+  .presentation-actions {
+    flex-direction: column;
+  }
+  
+  .presentation-actions .btn {
+    min-width: auto;
+  }
+  
+  .assignment-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .assignment-number {
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-header,
+  .assignments-header {
+    margin-bottom: 2rem;
+  }
+  
+  .presentation-card,
+  .assignment-card {
+    padding: 1rem;
+  }
+  
+  .feature-grid,
+  .objectives-grid {
+    grid-template-columns: 1fr;
+  }
+}
