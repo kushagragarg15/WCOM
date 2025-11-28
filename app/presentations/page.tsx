@@ -121,9 +121,10 @@ export default function PresentationsPage() {
 
                 <div className="presentation-actions">
                   <a
-                    href={`/presentations/${presentation.filename}`}
-                    download
+                    href={`/api/download/presentation/${encodeURIComponent(presentation.filename)}`}
                     className="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Download size={16} />
                     Download PowerPoint
