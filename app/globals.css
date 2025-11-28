@@ -3812,4 +3812,93 @@ ing YouTube Subscribe Button */
     width: 220px;
     height: 60px;
   }
+}/* Founde
+r/Creator Section Aliases */
+.founders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.founder-card {
+  background: rgba(17, 24, 39, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.founder-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.founder-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.founder-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.founder-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.founder-info {
+  text-align: center;
+}
+
+.founder-name {
+  font-family: "Inter", ui-sans-serif, system-ui;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text);
+  margin: 0 0 0.5rem;
+}
+
+.founder-id {
+  color: var(--primary);
+  font-weight: 500;
+  margin: 0 0 0.25rem;
+}
+
+.founder-program {
+  color: var(--muted-text);
+  font-size: 0.9rem;
+  margin: 0 0 0.25rem;
+}
+
+.founder-institution {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
+/* Responsive Design for Founders Section */
+@media (max-width: 768px) {
+  .founders-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .founder-card {
+    padding: 1rem;
+  }
+  
+  .founder-image {
+    width: 100px;
+    height: 100px;
+  }
 }

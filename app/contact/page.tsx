@@ -106,15 +106,15 @@ export default function ContactPage() {
             </div>
           </section>
 
-          {/* Student Developers Section */}
+          {/* Project Founders Section */}
           <section className="team-section">
-            <h2 className="section-heading">Student Developers</h2>
-            <div className="developers-grid">
+            <h2 className="section-heading">Project Founders & Creators</h2>
+            <div className="founders-grid">
               
-              {/* Developer 1 - 23UCC546 */}
-              <div className="developer-card">
-                <div className="developer-profile">
-                  <div className="developer-image">
+              {/* Founder 1 - 23UCC546 */}
+              <div className="founder-card">
+                <div className="founder-profile">
+                  <div className="founder-image">
                     <Image 
                       src="https://media.licdn.com/dms/image/v2/D4E03AQG8polH5gwnMA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1712167206821?e=1766016000&v=beta&t=dBR7KbRHIzegUUXGQQJ5RV_eYdqaf4dYeFvqIPKIxc4"
                       alt="Harshita Devnani"
@@ -123,11 +123,11 @@ export default function ContactPage() {
                       className="student-photo"
                     />
                   </div>
-                  <div className="developer-info">
-                    <h3 className="developer-name">Harshita Devnani</h3>
-                    <p className="developer-id">23UCC546</p>
-                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
-                    <p className="developer-institution">LNMIIT</p>
+                  <div className="founder-info">
+                    <h3 className="founder-name">Harshita Devnani</h3>
+                    <p className="founder-id">23UCC546</p>
+                    <p className="founder-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="founder-institution">LNMIIT</p>
                     
                     <div className="contact-links">
                       <a href="mailto:23ucc546@lnmiit.ac.in" className="contact-link email">
@@ -143,10 +143,10 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Developer 2 - 23UCC564 */}
-              <div className="developer-card">
-                <div className="developer-profile">
-                  <div className="developer-image">
+              {/* Founder 2 - 23UCC564 */}
+              <div className="founder-card">
+                <div className="founder-profile">
+                  <div className="founder-image">
                     <Image 
                       src="https://media.licdn.com/dms/image/v2/D5603AQH62VHdeFfX7g/profile-displayphoto-scale_400_400/B56ZiM.tE5HQAg-/0/1754711906941?e=1766016000&v=beta&t=lB2AQ41AAoaDfDxZid4VJl0CKRQMOCGkb5IpP5BeCgU"
                       alt="Kushagra Garg"
@@ -155,11 +155,11 @@ export default function ContactPage() {
                       className="student-photo"
                     />
                   </div>
-                  <div className="developer-info">
-                    <h3 className="developer-name">Kushagra Garg</h3>
-                    <p className="developer-id">23UCC564</p>
-                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
-                    <p className="developer-institution">LNMIIT</p>
+                  <div className="founder-info">
+                    <h3 className="founder-name">Kushagra Garg</h3>
+                    <p className="founder-id">23UCC564</p>
+                    <p className="founder-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="founder-institution">LNMIIT</p>
                     
                     <div className="contact-links">
                       <a href="mailto:23ucc564@lnmiit.ac.in" className="contact-link email">
@@ -175,10 +175,10 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Developer 3 - 23UCC565 */}
-              <div className="developer-card">
-                <div className="developer-profile">
-                  <div className="developer-image">
+              {/* Founder 3 - 23UCC565 */}
+              <div className="founder-card">
+                <div className="founder-profile">
+                  <div className="founder-image">
                     <Image 
                       src="https://media.licdn.com/dms/image/v2/D5603AQG_v390lOy_Sg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729360488075?e=1766016000&v=beta&t=-XdqPLLtxZPNM9XeM5739_JUs7cHwxfctSxpAI5s-dM"
                       alt="Kushagra Rajput"
@@ -187,11 +187,11 @@ export default function ContactPage() {
                       className="student-photo"
                     />
                   </div>
-                  <div className="developer-info">
-                    <h3 className="developer-name">Kushagra Rajput</h3>
-                    <p className="developer-id">23UCC565</p>
-                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
-                    <p className="developer-institution">LNMIIT</p>
+                  <div className="founder-info">
+                    <h3 className="founder-name">Kushagra Rajput</h3>
+                    <p className="founder-id">23UCC565</p>
+                    <p className="founder-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="founder-institution">LNMIIT</p>
                     
                     <div className="contact-links">
                       <a href="mailto:23ucc565@lnmiit.ac.in" className="contact-link email">
@@ -207,10 +207,10 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Developer 4 - 23UCC566 */}
-              <div className="developer-card">
-                <div className="developer-profile">
-                  <div className="developer-image">
+              {/* Founder 4 - 23UCC566 */}
+              <div className="founder-card">
+                <div className="founder-profile">
+                  <div className="founder-image">
                     <Image 
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgBJeVtTYSchm3Wal5GSziC9lElwkV2g6KaA&s"
                       alt="Lahar Joshi"
@@ -219,11 +219,11 @@ export default function ContactPage() {
                       className="student-photo"
                     />
                   </div>
-                  <div className="developer-info">
-                    <h3 className="developer-name">Lahar Joshi</h3>
-                    <p className="developer-id">23UCC566</p>
-                    <p className="developer-program">B.Tech Computer & Communication Engineering</p>
-                    <p className="developer-institution">LNMIIT</p>
+                  <div className="founder-info">
+                    <h3 className="founder-name">Lahar Joshi</h3>
+                    <p className="founder-id">23UCC566</p>
+                    <p className="founder-program">B.Tech Computer & Communication Engineering</p>
+                    <p className="founder-institution">LNMIIT</p>
                     
                     <div className="contact-links">
                       <a href="mailto:23ucc566@lnmiit.ac.in" className="contact-link email">

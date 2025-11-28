@@ -161,14 +161,7 @@ export default function PresentationsPage() {
           </div>
         </div>
 
-        <div className="credits-section">
-          <h2>Presentation Credits</h2>
-          <p>
-            These comprehensive presentation slides were created by <strong>Leher Joshi (23UCC566)</strong> and <strong>Harshita Devnani (23UCC546)</strong>
-            as part of the WCOM Lab project. The presentations include detailed data flow diagrams, pseudocode implementations,
-            theoretical analysis, and performance evaluations for each wireless communication topic covered in the course.
-          </p>
-        </div>
+
       </main>
     </div>
   )
