@@ -113,7 +113,7 @@ export default function ContactPage() {
                 <div className="developer-profile">
                   <div className="developer-image">
                     <Image 
-                      src="/placeholder-user.jpg"
+                      src="https://media.licdn.com/dms/image/v2/D4E03AQG8polH5gwnMA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1712167206821?e=1766016000&v=beta&t=dBR7KbRHIzegUUXGQQJ5RV_eYdqaf4dYeFvqIPKIxc4"
                       alt="Harshita Devnani"
                       width={120}
                       height={120}
@@ -145,7 +145,7 @@ export default function ContactPage() {
                 <div className="developer-profile">
                   <div className="developer-image">
                     <Image 
-                      src="https://media.licdn.com/dms/image/v2/D5603AQH62VHdeFfX7g/profile-displayphoto-scale_400_400/B56ZiM.tE5HQAg-/0/1754711906941?e=1762387200&v=beta&t=CXnkIft0UaRgiJqVz39_LBlFdT-20ru9iN2TKjForKU"
+                      src="https://media.licdn.com/dms/image/v2/D5603AQH62VHdeFfX7g/profile-displayphoto-scale_400_400/B56ZiM.tE5HQAg-/0/1754711906941?e=1766016000&v=beta&t=lB2AQ41AAoaDfDxZid4VJl0CKRQMOCGkb5IpP5BeCgU"
                       alt="Kushagra Garg"
                       width={120}
                       height={120}
@@ -177,7 +177,7 @@ export default function ContactPage() {
                 <div className="developer-profile">
                   <div className="developer-image">
                     <Image 
-                      src="https://media.licdn.com/dms/image/v2/D5603AQG_v390lOy_Sg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729360488108?e=1762387200&v=beta&t=9H6g5IxQvYwOQ9BdbXsUeciwPld5AkY9KGv5Kh8D4KE"
+                      src="https://media.licdn.com/dms/image/v2/D5603AQG_v390lOy_Sg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729360488075?e=1766016000&v=beta&t=-XdqPLLtxZPNM9XeM5739_JUs7cHwxfctSxpAI5s-dM"
                       alt="Kushagra Rajput"
                       width={120}
                       height={120}
@@ -209,7 +209,7 @@ export default function ContactPage() {
                 <div className="developer-profile">
                   <div className="developer-image">
                     <Image 
-                      src="/placeholder-user.jpg"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgBJeVtTYSchm3Wal5GSziC9lElwkV2g6KaA&s"
                       alt="Lahar Joshi"
                       width={120}
                       height={120}
