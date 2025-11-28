@@ -93,9 +93,12 @@ export default function ContactPage() {
                     <Linkedin size={20} />
                     LinkedIn Profile
                   </a>
-                  <a href="https://www.youtube.com/@wireless_visionaries" target="_blank" rel="noopener noreferrer" className="contact-link youtube">
+                  <a href="https://www.youtube.com/@wireless_visionaries" target="_blank" rel="noopener noreferrer" className="contact-link youtube featured-youtube">
                     <Youtube size={20} />
-                    Wireless Visionaries
+                    <div className="youtube-info">
+                      <span className="youtube-name">Wireless Visionaries</span>
+                      <span className="youtube-badge">🔥 Subscribe for Tutorials!</span>
+                    </div>
                   </a>
                 </div>
               </div>

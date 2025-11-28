@@ -184,6 +184,59 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="section reveal youtube-promotion" aria-labelledby="youtube-channel">
+          <div className="container">
+            <div className="youtube-banner">
+              <div className="youtube-content">
+                <div className="youtube-icon-wrapper">
+                  <div className="youtube-play-button">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
+                </div>
+                <div className="youtube-text">
+                  <h2 id="youtube-channel" className="youtube-title">
+                    🎥 Wireless Visionaries YouTube Channel
+                  </h2>
+                  <p className="youtube-description">
+                    Dive deeper into wireless communication concepts with our comprehensive video tutorials! 
+                    Our YouTube channel features detailed explanations, practical demonstrations, and 
+                    step-by-step guides for all WCOM lab assignments.
+                  </p>
+                  <div className="youtube-features">
+                    <div className="feature-tag">📚 Detailed Tutorials</div>
+                    <div className="feature-tag">🔬 Lab Demonstrations</div>
+                    <div className="feature-tag">📊 MATLAB Walkthroughs</div>
+                    <div className="feature-tag">🎯 Concept Explanations</div>
+                  </div>
+                </div>
+              </div>
+              <div className="youtube-actions">
+                <a 
+                  href="https://www.youtube.com/@wireless_visionaries" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn btn-youtube"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                  Subscribe Now
+                </a>
+                <a 
+                  href="https://www.youtube.com/@wireless_visionaries" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn btn-ghost youtube-visit"
+                >
+                  Visit Channel
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="section reveal" aria-labelledby="quick-assignments">
           <div className="container">
             <div className="section-header">

@@ -95,6 +95,30 @@ export default function Assignment1Page() {
             </ul>
           </section>
 
+          <section className="assignment-section youtube-cta">
+            <div className="youtube-assignment-banner">
+              <div className="youtube-assignment-content">
+                <div className="youtube-assignment-icon">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </div>
+                <div className="youtube-assignment-text">
+                  <h3>📺 Watch the Video Tutorial</h3>
+                  <p>Get a detailed walkthrough of this Gaussian Distribution assignment on our YouTube channel! See step-by-step MATLAB implementation and concept explanations.</p>
+                </div>
+              </div>
+              <a 
+                href="https://www.youtube.com/@wireless_visionaries" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn btn-youtube-small"
+              >
+                Watch Tutorial
+              </a>
+            </div>
+          </section>
+
           <div className="assignment-files">
             <h2>Assignment Files</h2>
             <div className="file-grid">
